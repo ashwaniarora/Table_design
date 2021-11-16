@@ -1,0 +1,8 @@
+Ashwani, Male, 27, Employed, Graduate, Delhi
+Shashank, Male, 25, Unemployed, Post-graduate, Mumbai
+Deepak, Male, 30, Employed, Post-graduate, Chennai
+Neha, Female, 26, Employed, Post-graduate, Delhi
+Kritika, Female, 28, Unemployed, Graduate, Pune
+Vinay, Male, 22, Unemployed, Graduate, Mumbai
+Maya, Female, 24, Unemployed, Graduate, Hyderabad
+Namit, Male, 25, Employed, Post-graduate, Pune

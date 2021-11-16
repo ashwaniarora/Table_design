@@ -1,0 +1,125 @@
+#nameInput{
+    margin-top: 100px;
+    margin-left: 85px;
+    width: 8%;
+    font-size: 14px;
+    padding: 10px 20px 10px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    border-radius: 10px;
+}
+
+#ageInput{
+    margin-top: 100px;
+    margin-left: 20px;
+    width: 2%;
+    font-size: 14px;
+    padding: 10px 20px 10px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    border-radius: 10px;
+}
+
+#locationInput{
+  margin-top: 100px;
+  margin-left: 20px;
+  width: 9%;
+  font-size: 14px;
+  padding: 10px 20px 10px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  border-radius: 10px;
+}
+
+#genderInput{
+  margin-top: 100px;
+  margin-left: 20px;
+  width: 10%;
+  font-size: 14px;
+  padding: 10px 20px 10px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  display: inline;
+}
+
+#employmentInput{
+  margin-top: 100px;
+  margin-left: 20px;
+  width: 27%;
+  font-size: 14px;
+  padding: 10px 20px 10px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  display: inline;
+}
+
+#qualificationInput{
+  margin-top: 100px;
+  margin-left: 20px;
+  width: 17%;
+  font-size: 14px;
+  padding: 10px 20px 10px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  display: inline;
+}
+
+#tableCreate { 
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #tableCreate td, #tableCreate th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #tableCreate tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #tableCreate tr:hover {background-color: #ddd;}
+  
+  #tableCreate th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: burlywood;
+    color: white;
+  }
+
+  .delete-row{
+      background-color: burlywood;
+      border: none;
+      padding: 10px 30px;
+      border-radius: 10px;
+      color: white;
+      font-size: 15px;
+      font-weight: bold;
+  }
+  .delete-row:hover{
+      opacity: 0.5;
+  }
+
+  .pager-nav {
+    margin: 16px 0;
+}
+.pager-nav span {
+    display: inline-block;
+    padding: 4px 8px;
+    margin: 1px;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: #FFFFFF;
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.pager-nav span:hover,
+.pager-nav .pg-selected {
+    background-color: #f9f9f9;
+    border: 1px solid #CCCCCC;
+}

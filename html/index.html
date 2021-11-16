@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <script src="../script/script.js"></script>
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <input type="text" id="nameInput" onkeyup="filterNameTable()" placeholder="Names..">
+    <select id="genderInput" onchange="filterGenderTable()">
+        <option>Select Gender</option>
+        <option>Male</option>
+        <option>Female</option>
+    </select>
+    <input type="text" id="ageInput" onkeyup="filterAgeTable()" placeholder="Age">
+    <select id="employmentInput" onchange="filterEmployementTable()">
+        <option>Select Employement</option>
+        <option>Employed</option>
+        <option>Unemployed</option>
+    </select>
+    <select id="qualificationInput" onchange="filterQualificationTable()">
+        <option>Select Qualification</option>
+        <option>Graduate</option>
+        <option>Post-graduate</option>
+    </select>
+    <input type="text" id="locationInput" onkeyup="filterLocationTable()" placeholder="Location">
+    <div style="overflow-x:auto;">
+        <table id="tableCreate">
+            <tr>
+                <th><input type="checkbox" onclick="sortTable(0) " onchange="selectAll(this)"></th>
+                <th onclick="sortTable(1)">Name</th>
+                <th onclick="sortTable(2)">Gender</th>
+                <th onclick="sortTable(3)">Age</th>
+                <th onclick="sortTable(4)">Employement Status</th>
+                <th onclick="sortTable(5)">Qualification</th>
+                <th onclick="sortTable(6)">Location</th>
+
+            </tr>
+        </table>
+    </div>
+    <input type="button" value="Delete row" class="delete-row" onclick="deleteRows()">
+
+    <div id="pageNavPosition" class="pager-nav"></div>
+
+    <script>
+        let pager = new Pager('tableCreate', 3);
+
+        pager.init();
+        pager.showPageNav('tableCreate', 'pageNavPosition');
+        pager.showPage(1);
+    </script>
+</body>
+
+</html>
